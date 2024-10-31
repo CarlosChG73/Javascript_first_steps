@@ -1,0 +1,79 @@
+ /* Estilos generales */
+ body {
+    background-color: #f9f9f9; /* Fondo suave */
+    font-family: Arial, sans-serif; /* Fuente clara y legible */
+    transition: background-color 0.3s; /* Transición suave para el fondo */
+}
+.contenedor {
+    background-color: #ffffff; /* Fondo blanco para el contenedor */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    max-width: 800px; /* Ancho máximo para el contenedor */
+    margin: auto; /* Centrar contenedor */
+    transition: background-color 0.3s, color 0.3s; /* Transición suave para el contenedor */
+}
+h1, h2, h3, p {
+    color: #333; /* Color oscuro para los textos */
+    transition: color 0.3s; /* Transición suave para el color del texto */
+}
+hr {
+    border: 1px solid #e0e0e0; /* Línea divisoria suave */
+}
+.list-group-item {
+    background-color: #f1f1f1; /* Color de fondo suave para las listas */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cambiar el cursor a manita */
+    transition: background-color 0.3s; /* Transición suave para el fondo de las listas */
+}
+.list-group-item:hover {
+    background-color: #d1d1d1; /* Color más oscuro al pasar el mouse */
+}
+/* Estilos para el modo oscuro */
+.modo-oscuro {
+    background-color: #212529; /* Fondo oscuro */
+    color: #f8f9fa; /* Color de texto claro */
+}
+.modo-oscuro .contenedor {
+    background-color: #343a40; /* Fondo oscuro para el contenedor */
+}
+.modo-oscuro h1,
+.modo-oscuro h2,
+.modo-oscuro h3,
+.modo-oscuro p {
+    color: #ffffff; /* Cambiar textos a blanco en modo oscuro */
+}
+.modo-oscuro .list-group-item {
+    background-color: #495057; /* Fondo oscuro para listas en modo oscuro */
+}
+.modo-oscuro .list-group-item:hover {
+    background-color: #6c757d; /* Color más claro al pasar el mouse en modo oscuro */
+}
+/* Estilo del botón */
+#modoOscuroBtn {
+    position: fixed; /* Fijo en la parte superior derecha */
+    top: 20px; /* Espacio desde el top */
+    right: 20px; /* Espacio desde la derecha */
+    background-color: #007bff; /* Color del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 30px; /* Bordes redondeados */
+    padding: 10px 15px; /* Espaciado interno */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    transition: background-color 0.3s, transform 0.3s; /* Transición suave para el botón */
+    font-size: 10px; /* Tamaño de fuente del botón */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Sombra para el botón */
+}
+#modoOscuroBtn:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el mouse */
+    transform: scale(1.05); /* Efecto de crecimiento al pasar el mouse */
+}
+/* Responsividad */
+@media (max-width: 576px) {
+    #modoOscuroBtn {
+        font-size: 14px; /* Ajustar tamaño de fuente en pantallas pequeñas */
+    }
+    .contenedor {
+        padding: 15px; /* Ajustar espaciado interno en pantallas pequeñas */
+    }
+}

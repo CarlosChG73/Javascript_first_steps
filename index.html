@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Introducción a Variables</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Enlazamos Bootstrap desde su CDN -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <button id="modoOscuroBtn">Activar Modo Oscuro</button>
+    <!-- Botón para activar el modo oscuro -->
+    <div class="container mt-5">
+      <!-- Contenedor principal centrado -->
+      <h1 class="text-center">Variables y Tipos de Datos en JavaScript</h1>
+      <div class="contenedor">
+        <!-- Contenedor adicional para el contenido -->
+        <h2>Introducción a Variables</h2>
+        <p>
+          Las variables son contenedores para almacenar datos. En JavaScript,
+          puedes crear variables usando las palabras clave var, let y const.
+        </p>
+        <hr />
+        <!-- Línea divisoria -->
+        <ol class="list-group" id="listaVar">
+          <li class="list-group-item">
+            <strong>var:</strong> Es la forma más antigua de declarar variables
+            y tiene un alcance funcional. Se recomienda evitar su uso en código
+            moderno.
+          </li>
+          <li class="list-group-item">
+            <strong>let:</strong> Se utiliza para declarar variables que pueden
+            cambiar su valor y tiene un alcance de bloque.
+          </li>
+          <li class="list-group-item">
+            <strong>const:</strong> Se utiliza para declarar constantes, es
+            decir, valores que no cambiarán.
+          </li>
+        </ol>
+        <hr />
+        <!-- Línea divisoria -->
+        <h2>Tipos de Datos en JavaScript</h2>
+        <p>
+          Los tipos de datos en JavaScript son categorías que definen el tipo de
+          valor que una variable puede contener y cómo se puede manipular. Estos
+          tipos de datos se dividen en dos grandes grupos: primitivos y no
+          primitivos.
+        </p>
+        <hr />
+        <!-- Línea divisoria -->
+        <h3>Tipos Primitivos: Son los tipos de datos básicos.</h3>
+        <ol class="list-group" id="listaTipDat">
+          <li class="list-group-item">
+            <strong>string:</strong> Cadena de texto. <br />
+            <em>Ejemplo: "Hola"</em>
+          </li>
+          <li class="list-group-item">
+            <strong>number:</strong> Números <br />
+            <em>Ejemplo: 42</em>
+          </li>
+          <li class="list-group-item">
+            <strong>boolean:</strong> Verdadero o falso <br />
+            <em>Ejemplo: true o false</em>
+          </li>
+          <li class="list-group-item">
+            <strong>null:</strong> Ausencia intencionada de valor.
+          </li>
+          <li class="list-group-item">
+            <strong>undefined:</strong> Valor no definido.
+          </li>
+          <li class="list-group-item">
+            <strong>symbol:</strong> Tipo de dato único e inmutable. <br />
+            <em>Usado en situaciones avanzadas</em>
+          </li>
+          <li class="list-group-item">
+            <strong>Objeto:</strong> Colección de datos y más compleja. <br />
+            <em>Ejemplo: { nombre: "Juan", edad: 30 }</em>
+          </li>
+        </ol>
+        <hr />
+        <!-- Línea divisoria -->
+        <h2>Ejercicios Prácticos</h2>
+        <p>
+          Realizar ejercicios de programación es esencial para consolidar el
+          aprendizaje, desarrollar habilidades prácticas, y mejorar la capacidad
+          de resolución de problemas. Esta práctica constante no solo es
+          fundamental para la formación de un programador competente, sino que
+          también es clave para su crecimiento profesional y personal en el
+          mundo del desarrollo de software.
+        </p>
+
+        <a href="ejercicioVariables/ejer-1.html" target="_blank">Página del ejercicio 1</a>
+      </div>
+      <!-- Fin del contenedor -->
+    </div>
+    <!-- Fin del contenedor principal -->
+
+    <script src="script.js"></script>
+  </body>
+</html>
